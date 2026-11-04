@@ -26,7 +26,7 @@ function AdminDashboard() {
 
     try {
       const response = await fetch(
-        'http://localhost:5000/api/contact',
+        `${import.meta.env.VITE_API_URL}/api/contact`,
         {
           headers: {
             Authorization: `Bearer ${token}`
@@ -54,7 +54,7 @@ function AdminDashboard() {
   async function updateStatus(id, isRead) {
     try {
       const response = await fetch(
-        `http://localhost:5000/api/contact/${id}`,
+        `${import.meta.env.VITE_API_URL}/api/contact/${id}`,
         {
           method: 'PUT',
           headers: {
@@ -86,7 +86,7 @@ function AdminDashboard() {
 
     try {
       const response = await fetch(
-        `http://localhost:5000/api/contact/${id}`,
+        `${import.meta.env.VITE_API_URL}/api/contact/${id}`,
         {
           method: 'DELETE',
           headers: {
