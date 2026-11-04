@@ -9,14 +9,23 @@ function About() {
         <h2>I'm an Aspiring Full Stack Developer</h2>
 
         <p>
-          Hello! I am a B.Tech student passionate about
-          web development and programming.
+          I am a passionate B.Tech student with a strong interest
+          in Full Stack Web Development and software engineering.
+          I enjoy transforming ideas into functional, user-friendly
+          web applications while continuously exploring new technologies.
+        </p>
 
-          I enjoy learning new technologies and building
-          creative web applications.
+        <p>
+          I have a foundation in HTML and CSS and am currently
+          expanding my skills in JavaScript, React, Node.js,
+          Express.js, and MongoDB. I am also strengthening my
+          problem-solving and programming skills through Java.
+        </p>
 
-          My goal is to become a professional Full Stack
-          Developer and develop real-world applications.
+        <p>
+          My goal is to become a skilled Full Stack Developer,
+          contribute to real-world projects, and build impactful
+          digital solutions through continuous learning and innovation.
         </p>
 
       </div>

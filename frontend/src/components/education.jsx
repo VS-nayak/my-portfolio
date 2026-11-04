@@ -12,7 +12,7 @@ function Education() {
 
         <p>Branch: Information Technology</p>
 
-        <p>Currently Pursuing B.Tech</p>
+        <p>Currently Pursuing B.Tech 3rd Year</p>
 
       </div>
 
